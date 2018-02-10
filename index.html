@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Payment</title>
+        <meta name="author" content="andriyn">
+        <script>
+            function aboutAuthor(){
+                document.getElementById("author").innerHTML = "So, do you want to know about me? Try to find me some where else";
+            }
+        </script>
+        <link rel="stylesheet" href="Css/andriystyle.css">
+
+    </header>
+    <body>
+        <div class="wholepage">
+            <div
+            <h1>Wellcome to<span style="color: blueviolet; font-size: 16px;"> my </span> page</h1>
+            <div align="center">
+                <img src="Images/smiling.svg" alt="smile" height="40px">
+            </div>
+            
+            <form method="post" action="Electricity.html">
+                <h4>Select Month of payment</h4>
+                        <input type="month" name="paymenttime"><br>
+                        <br>
+                <h4>Lets choose what do you want to pay for </h4>
+                    <select name="List of Services">
+                        <option value="Gas" selected>Gas</option>
+                        <option value="electrisity">Elecricity</option>
+                        <option value="water">Water</option>
+                        <option value="other">Other</option>
+                    </select>
+                <h4>Set if you have subsidy this months</h4>
+                        <input type="radio" name="subsidy" value="Have">Yes<br>
+                        <input type="radio" name="subsidy" value="Dont have" checked>No<br>
+                        <br>
+                        <input type="submit" value="Go to filling">
+            </form>
+            <h1 id="author">About Author</h1>
+            <div align="center">
+                <button type="button" onclick="aboutAuthor()" >About me</button>
+            </div>
+          </div>
+    </body>
+</html>
+
