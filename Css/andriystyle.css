@@ -1,14 +1,43 @@
 h1{color: rgb(9, 31, 6);
 text-align:center;
+/*border: 5px groove rgb(95, 95, 160);
+border-radius: 5px;
+border-width: 5px;*/
+border-bottom: 5px groove rgb(95, 95, 160);
+letter-spacing: 3px;
+text-shadow: 3px -3px rgb(126, 122, 122);
+
 }
 
-.wholepage{
-    background-color: aquamarine;
+body{
+    background-image: url("back.jpg");
     align-content: center;
+}
+
+#author{
+    text-align:center;
+    text-decoration: underline;
+    background-color:rgb(221, 212, 212);
+    border: 5px ridge white;
+    border-radius: 5px;
+    border-width: 5px;
+    margin: 10px 40%;
+    outline-color: rgb(145, 133, 133);
+    outline-style: ridge;
+    outline-width: 10px;
+}
+
+button #author{
+    text-transform: capitalize;
+}
+
+form{
+    padding: 20px;
 }
 
 i{
     margin-top: 10px;
+    margin-left: 30px;
 }
 
 leftColumn, rightColumn{
