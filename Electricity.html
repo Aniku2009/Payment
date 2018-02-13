@@ -4,21 +4,42 @@
         <title>Payment</title>
         <meta name="author" content="andriyn">
         <link rel="stylesheet" href="Css/andriystyle.css">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     </header>
     <body>
         <div class="wholepage">
-              <h1>Fine! You are on <span style="color: rgb(76, 43, 226); font-size: 16px;"> Electricity </span> page</h1>
-              <div align="center">
-              <img src="flash.svg" height="40px">
-              <div>
-
-                <h3>Pleaae, enter value of the used energy</h3>
-                <form method="post" action="index.html">
-                <input type="number" name="electricityUsage"><br>
-                <br>
-                <input type="submit"/>
-           
+            <div class="leftColumn">
+                <div align="center">
+                    <h1>Fine! You are on <span style="color: rgb(76, 43, 226); font-size: 16px;"> Electricity </span> page</h1>
+                    <img src="flash.svg" height="40px">
+                </div>
+                <div>
+                    <h3>Pleaae, enter value of the used energy</h3>
+                    <form method="post" action="index.html">
+                    <input type="number" name="electricityUsage"><br>
+                    <br>
+                    <input type="submit"/>
+                </div>
+                <i class="glyphicon glyphicon-thumbs-up"></i>
+            </div>
+            <div class="rightColumn">
+                <table>
+                    <tr>
+                        <th>Usefull links</th>
+                    </tr>
+                    <tr>
+                        <td>Link</td>
+                        <td>Description<td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.oblenergo.kharkov.ua/consumers/tarifs/taryfy-na-elektroenergiyu-na-sichen-2018-roku">Current price</a></td>
+                        <td>Here you can find official site of electricity provider company<td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://teplo.gov.ua/calculation">Subsidy calc</a></td>
+                        <td>You van calculate subsidy for your current state</td>
+                    </tr>
+                </table>
             </div>
           </div>
     </body>

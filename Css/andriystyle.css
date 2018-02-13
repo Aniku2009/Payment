@@ -7,3 +7,10 @@ text-align:center;
     align-content: center;
 }
 
+i{
+    margin-top: 10px;
+}
+
+leftColumn, rightColumn{
+    float: left;
+}
