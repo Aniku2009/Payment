@@ -40,6 +40,26 @@ i{
     margin-left: 30px;
 }
 
-leftColumn, rightColumn{
+leftColumn{
     float: left;
+    padding: 20px;
 }
+
+td{
+    border:none;
+}
+
+table{
+    caption-side: top;
+}
+
+caption{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+tr:hover {
+    background-color: rgb(163, 154, 154);}
+
