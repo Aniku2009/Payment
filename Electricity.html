@@ -4,42 +4,44 @@
         <title>Payment</title>
         <meta name="author" content="andriyn">
         <link rel="stylesheet" href="Css/andriystyle.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </header>
     <body>
-        <div class="wholepage">
-            <div class="leftColumn">
-                <div align="center">
-                    <h1>Fine! You are on <span style="color: rgb(76, 43, 226); font-size: 16px;"> Electricity </span> page</h1>
-                    <img src="Images\flash.svg" height="40px">
+        <div class="wholepageEl">
+                    <div align="center">
+                        <h1>Fine! You are on <span style="color: rgb(76, 43, 226); font-size: 16px;"> Electricity </span> page</h1>
+                        <img src="Images\flash.svg" height="40px">
+                    </div>
+                <div class="leftColumn">
+                    <div>
+                        <h3>Pleaae, enter value of the used energy</h3>
+                        <form method="post" action="index.html">
+                        <input type="number" name="electricityUsage"><br>
+                        <br>
+                        <input type="submit">
+                        </form>
+                    </div>
+                    <i class="fa fa-file"></i>
                 </div>
-                <div>
-                    <h3>Pleaae, enter value of the used energy</h3>
-                    <form method="post" action="index.html">
-                    <input type="number" name="electricityUsage"><br>
-                    <br>
-                    <input type="submit">
-                    </form>
+                
+           
+                <div class="rightColumn">
+                    <table>
+                        <caption>Usefull links</caption>
+                        <tr>
+                            <td>Link</td>
+                            <td>Description</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.oblenergo.kharkov.ua/consumers/tarifs/taryfy-na-elektroenergiyu-na-sichen-2018-roku">Current price</a></td>
+                            <td>Here you can find official site of electricity provider company</td>
+                        </tr>
+                        <tr>
+                            <td><a href="http://teplo.gov.ua/calculation">Subsidy calc</a></td>
+                            <td>You van calculate subsidy for your current state</td>
+                        </tr>
+                    </table>
                 </div>
-                <i class="glyphicon glyphicon-thumbs-up"></i>
-            </div>
-            <div class="rightColumn">
-                <table>
-                    <caption>Usefull links</caption>
-                    <tr>
-                        <td>Link</td>
-                        <td>Description</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://www.oblenergo.kharkov.ua/consumers/tarifs/taryfy-na-elektroenergiyu-na-sichen-2018-roku">Current price</a></td>
-                        <td>Here you can find official site of electricity provider company</td>
-                    </tr>
-                    <tr>
-                        <td><a href="http://teplo.gov.ua/calculation">Subsidy calc</a></td>
-                        <td>You van calculate subsidy for your current state</td>
-                    </tr>
-                </table>
-            </div>
           </div>
     </body>
 </html>

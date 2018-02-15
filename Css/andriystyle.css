@@ -27,7 +27,12 @@ body{
     outline-width: 10px;
 }
 
-button #author{
+button #author{    
+   
+}
+.authorbutton {
+    margin:auto;
+    width: 63px;
     text-transform: capitalize;
 }
 
@@ -40,10 +45,13 @@ i{
     margin-left: 30px;
 }
 
-leftColumn{
-    float: left;
+.leftColumn, .rightColumn{
+    display: inline-block;
+    width: 40%;    
     padding: 20px;
 }
+
+
 
 td{
     border:none;
