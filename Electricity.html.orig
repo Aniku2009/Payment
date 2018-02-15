@@ -15,24 +15,15 @@
                 <div class="leftColumn">
                     <div>
                         <h3>Pleaae, enter value of the used energy</h3>
-                    <form>
+                        <form method="post" action="index.html">
                         <input type="number" name="electricityUsage"><br>
                         <br>
-                    <input type="number" name="electricityUsage"><br>
-                    <br>
-                    <div class="submitEnergy">
-                        <input type="submit" value="Submit">
-                        <div class="nextStep">
-                            <h5>You've just submit data. Please, choose next step</h5>
-                            <a href="index.html">Go to the Main Page</a>
-                            <br>
-                            <a href="water.html">Go to the Water Page</a>
-                        </div>
-                    </div>
+                        <input type="submit">
                         </form>
                     </div>
                     <i class="fa fa-file"></i>
                 </div>
+<<<<<<< HEAD
                 
            
                 <div class="rightColumn">
@@ -51,6 +42,23 @@
                             <td>You van calculate subsidy for your current state</td>
                         </tr>
                     </table>
+=======
+                <div>
+                    <h3>Pleaae, enter value of the used energy</h3>
+                    <form>
+                    <input type="number" name="electricityUsage"><br>
+                    <br>
+                    <div class="submitEnergy">
+                        <input type="submit" value="Submit">
+                        <div class="nextStep">
+                            <h5>You've just submit data. Please, choose next step</h5>
+                            <a href="index.html">Go to the Main Page</a>
+                            <br>
+                            <a href="water.html">Go to the Water Page</a>
+                        </div>
+                    </div>
+                    </form>
+>>>>>>> b9b78c7c2c3097b2dad2d7b3ae6ec45e8f36f904
                 </div>
           </div>
     </body>

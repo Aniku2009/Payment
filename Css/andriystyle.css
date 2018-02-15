@@ -71,3 +71,16 @@ caption{
 tr:hover {
     background-color: rgb(163, 154, 154);}
 
+input:focus {
+    background-color: rgb(134, 134, 156);
+    }
+
+.nextStep {
+    display: none;
+}
+
+
+.submitEnergy:hover .nextStep{
+    display: block;
+}
+
