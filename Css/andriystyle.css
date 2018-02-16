@@ -27,9 +27,6 @@ body{
     outline-width: 10px;
 }
 
-button #author{    
-   
-}
 .authorbutton {
     margin:auto;
     width: 63px;
@@ -46,8 +43,8 @@ i{
 }
 
 .leftColumn, .rightColumn{
-    display: inline-block;
-    width: 40%;    
+    float:left;
+    width: 48%;    
     padding: 20px;
 }
 
@@ -84,3 +81,10 @@ input:focus {
     display: block;
 }
 
+img{
+    opacity: 0.6;
+}
+
+img:hover {
+    opacity: 1.0;
+}
